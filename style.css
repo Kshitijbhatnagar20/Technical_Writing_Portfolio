@@ -73,3 +73,12 @@ section{
     padding:20px;
     margin-top:20px;
 }
+
+.card a{
+    text-decoration:none;
+    color:#222;
+}
+
+.card a:hover{
+    color:#0066cc;
+}
