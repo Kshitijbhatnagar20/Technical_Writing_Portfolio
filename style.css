@@ -13,8 +13,13 @@ body{
 nav{
     display:flex;
     justify-content:space-between;
+    align-items:center;
     padding:20px 10%;
     border-bottom:1px solid #ddd;
+    position:sticky;
+    top:0;
+    background:white;
+    z-index:1000;
 }
 
 nav ul{
@@ -69,10 +74,12 @@ section{
 }
 
 .card{
-    border:1px solid #ddd;
-    padding:20px;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:25px;
     margin-top:20px;
     transition:0.3s ease;
+    background:white;
 }
 
 .card a{
@@ -110,4 +117,10 @@ section{
     text-decoration:none;
     color:inherit;
     display:block;
+}
+
+.hero-subtext{
+    font-size:18px;
+    color:#666;
+    margin:15px 0;
 }
