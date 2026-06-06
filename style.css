@@ -91,7 +91,11 @@ section{
 }
 
 .card a:hover{
-    color:#0066cc;
+    color:#2563eb;
+}
+
+nav a:hover{
+    color:#2563eb;
 }
 
 .card:hover{
@@ -156,6 +160,7 @@ section{
 footer{
     text-align:center;
     padding:30px;
+    margin-top:50px;
     background:#111827;
     color:white;
 }
