@@ -72,6 +72,7 @@ section{
     border:1px solid #ddd;
     padding:20px;
     margin-top:20px;
+    transition:0.3s ease;
 }
 
 .card a{
@@ -81,6 +82,11 @@ section{
 
 .card a:hover{
     color:#0066cc;
+}
+
+.card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
 
 .btn {
@@ -98,4 +104,10 @@ section{
 .btn:hover {
     background-color: #1f2937;
     color: white;
+}
+
+.project-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
 }
